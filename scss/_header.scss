@@ -1,12 +1,14 @@
 header {
 
-    div.logo {
-        background-image: url('../img/logo.png');
-    }
-
+    
     ul {
         
-        background-color: rgba(white, 0.8);
+        padding: 0;
+        height: 54px;
+        background-color: rgba(rgb(255, 251, 251), 0.85);
+        min-width: 350px;
+        border-radius: 0  27px 27px 0;
+        
 
     }
 
@@ -14,7 +16,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     justify-content: space-around;
 }
 
