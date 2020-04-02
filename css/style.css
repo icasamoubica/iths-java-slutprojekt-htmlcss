@@ -7,10 +7,9 @@ header {
   justify-content: space-around; }
   header ul {
     padding: 0;
-    height: 54px;
     background-color: rgba(255, 251, 251, 0.85);
-    min-width: 350px;
-    border-radius: 0  27px 27px 0; }
+    padding: 10px;
+    border-radius: 20px; }
 
 li {
   margin: 0.5rem;
@@ -19,7 +18,7 @@ li {
   align-items: center; }
 
 footer {
-  background-image: linear-gradient(#333236, #736f7e);
+  background-image: linear-gradient(#26242b, #736f7e);
   width: 100vw;
   min-height: 370px;
   display: flex;
@@ -63,7 +62,10 @@ h3 {
     justify-content: center;
     flex-direction: row; }
     header ul, footer ul {
-      flex-direction: row; } }
+      flex-direction: row;
+      min-width: 350px;
+      height: 34px;
+      border-radius: 0  27px 27px 0; } }
 
 ul {
   color: #070606;
