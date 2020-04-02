@@ -34,14 +34,20 @@ body {
 
 .container {
   min-height: 600px;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 10px;
+  padding: 10px; }
 
 ul {
+  list-style: none;
   display: flex;
-  flex-direction: row; }
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between; }
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
   nav {
-    flex-direction: column; }
+    flex-direction: row; }
   ul {
-    flex-direction: column; } }
+    flex-direction: row; } }
