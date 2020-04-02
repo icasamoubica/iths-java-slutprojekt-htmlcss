@@ -1,12 +1,20 @@
 body {
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
-    background-image: url('img/restaurant.jpg');
+    background-image: url("../img/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
 }
 
 header, main {
     width: 100%;
+}
+
+footer {
+    width: 100vw;
+    background-color: rgb(51, 50, 54);
 }
 
 header {
