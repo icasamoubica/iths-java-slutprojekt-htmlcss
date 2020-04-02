@@ -1,3 +1,6 @@
+@import 'header';
+@import 'footer';
+
 html { 
     color: white;
     width: 100vw;
@@ -26,15 +29,17 @@ body {
     background-color: rgba(#000000, 0.8);
 }
 
-main {
+ul {
+    display: flex;
+    flex-direction: row;
 }
 
-footer {
-    background-image: linear-gradient( rgb(51, 50, 54), rgb(115, 111, 126));
-    width: 100vw;
-    min-height: 500px;
+@media screen and (max-width: 640px) {
+    nav {
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+    }
 }
 
-header {
-    background: forestgreen;
-}
