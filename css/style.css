@@ -1,18 +1,31 @@
+html {
+  color: white;
+  width: 100vw;
+  background: url("../img/restaurant.jpg") no-repeat center center fixed;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%; }
+
+.wrapper {
+  max-width: 1200px; }
+
 body {
-  max-width: 1200px;
+  margin: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url("../img/restaurant.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top center; }
+  align-items: center;
+  justify-content: space-between; }
 
-header, main {
-  width: 100%; }
+.container {
+  min-height: 600px;
+  background-color: rgba(0, 0, 0, 0.8); }
 
 footer {
+  background-image: linear-gradient(#333236, #736f7e);
   width: 100vw;
-  background-color: #333236; }
+  min-height: 500px; }
 
 header {
   background: forestgreen; }

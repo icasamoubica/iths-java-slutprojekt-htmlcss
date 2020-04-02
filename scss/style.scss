@@ -1,20 +1,38 @@
-body {
+html { 
+    color: white;
+    width: 100vw;
+    background: url("../img/restaurant.jpg") no-repeat center center fixed; 
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    }
+
+.wrapper {
     max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    background-image: url("../img/restaurant.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top center;
 }
 
-header, main {
+body {
+    margin: 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    min-height: 600px;
+    background-color: rgba(#000000, 0.8);
+}
+
+main {
 }
 
 footer {
+    background-image: linear-gradient( rgb(51, 50, 54), rgb(115, 111, 126));
     width: 100vw;
-    background-color: rgb(51, 50, 54);
+    min-height: 500px;
 }
 
 header {
