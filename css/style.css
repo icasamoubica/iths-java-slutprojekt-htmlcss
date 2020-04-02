@@ -1,0 +1,11 @@
+body {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("img/restaurant.jpg"); }
+
+header, main {
+  width: 100%; }
+
+header {
+  background: forestgreen; }
