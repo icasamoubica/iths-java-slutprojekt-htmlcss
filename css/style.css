@@ -5,6 +5,8 @@ header {
   justify-content: center;
   align-content: center;
   justify-content: space-around; }
+  header div.logo {
+    background-image: url("../img/logo.png"); }
   header ul {
     background-color: rgba(255, 255, 255, 0.8); }
 
@@ -17,19 +19,15 @@ li {
 footer {
   background-image: linear-gradient(#333236, #736f7e);
   width: 100vw;
-  min-height: 500px;
+  min-height: 370px;
   display: flex;
   flex-direction: column;
   align-content: center; }
 
 html {
   color: white;
-  width: 100vw;
-  background: url("../img/restaurant.jpg") no-repeat center center fixed;
-  -webkit-background-size: auto 100%;
-  -moz-background-size: auto 100%;
-  -o-background-size: auto 100%;
-  background-size: auto 100%; }
+  line-height: 1.6;
+  width: 100vw; }
 
 .wrapper {
   max-width: 1000px; }
@@ -40,9 +38,19 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background: url("../img/restaurant_shade.jpg") no-repeat center center fixed;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  background-color: black; }
+
+h3 {
+  font-size: 2rem; }
 
 .container {
+  padding: 5rem;
   min-height: 500px;
   margin-top: 30px;
   margin-bottom: 60px;
