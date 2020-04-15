@@ -67,15 +67,38 @@ ul {
 }
 
 footer ul {
-    border-bottom: 5px;
-    border-color: rgb(239, 236, 245);
 
     li {
+        display: flex;
+        flex-direction: column;
         padding-left: 10px;
         padding-right: 10px;
+
+        div{
+            max-width: 170px;
+            min-width: 170px;
+            max-height: 170px;
+            min-height: 170px;
+            border-radius: 50%;
+            background: center;
+        }
+        
+        
     }
 
 
+}
+div.imglink1 {
+    background: url("../img/Her-majesty-Rakija.jpg") no-repeat center center;
+}
+div.imglink2{
+    background: url("../img/destilling.jpg") no-repeat center center;
+}
+div.imglink3 {
+    background: url("../img/penandpaper.jpg") no-repeat center center;
+}
+div.imglink4 {
+    background: url("../img/rakije.jpg") no-repeat center center;
 }
 
 
