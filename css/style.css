@@ -57,6 +57,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
+  cursor: url("../img/cursor-pointer.png"), pointer;
   color: #dbd3d3;
   text-decoration: none; }
 

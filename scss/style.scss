@@ -24,6 +24,7 @@ a:visited {
 
     /* mouse over link */
 a:hover {
+    cursor: url("../img/cursor-pointer.png"), pointer;
     color: rgb(219, 211, 211);
     text-decoration: none;
 }
