@@ -74,3 +74,10 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-content: center; }
+
+footer ul {
+  border-bottom: 5px;
+  border-color: #efecf5; }
+  footer ul li {
+    padding-left: 10px;
+    padding-right: 10px; }
